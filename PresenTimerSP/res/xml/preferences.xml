@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="Settings">
+		<ListPreference
+			android:title="@string/settings_screenoff"
+			android:key="settings_screenoff"
+			android:entries="@array/list_entries"
+			android:entryValues="@array/list_entryvalues"
+			android:defaultValue="1200">
+		</ListPreference>
+		<ListPreference
+			android:title="@string/settings_yellowtime"
+			android:key="settings_yellowtime"
+			android:entries="@array/list_resttime_entries"
+			android:entryValues="@array/list_resttime_entryvalues"
+			android:defaultValue="120">
+		</ListPreference>
+		<ListPreference
+			android:title="@string/settings_redtime"
+			android:key="settings_redtime"
+			android:entries="@array/list_resttime_entries"
+			android:entryValues="@array/list_resttime_entryvalues"
+			android:defaultValue="0">
+		</ListPreference>
+</PreferenceScreen>  

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 黒系 -->
+	<color name="color1">#0A131B</color><!--　濃紺 -->
+	<color name="color2">#0E1C2B</color><!--  -->
+	<color name="color3">#2C4E62</color><!--  -->
+	<color name="color4">#A0A587</color><!-- グレー -->
+	<color name="color5">#FBFCF2</color><!-- 白系 -->
+	<color name="color6">#498DC7</color><!-- ライトブルー -->
+	<color name="color7">#961B1B</color><!--  -->
+
+	<color name="window_bg">@color/color3</color>
+	<color name="title_bg">@color/color2</color>
+
+	<color name="title_bg_top">@color/color1</color>
+	<color name="title_bg_bottom">@color/color6</color>
+
+	<color name="bg_top">@color/color3</color>
+	<color name="bg_bottom">@color/color1</color>
+
+	<color name="small_text">@color/color2</color>
+	<color name="medium_text">@color/color2</color>
+
+
+	<color name="component_frame_normal">@color/color2</color>
+	<color name="component_frame_pressed">@color/color2</color>
+	<color name="component_frame_pressed_top">@color/color2</color>
+	<color name="component_frame_pressed_bottom">@color/color6</color>
+	<color name="component_frame_disabled">@color/color7</color>
+	<color name="component_text_normal">@android:color/white</color>
+	<color name="component_text_pressed">@color/color1</color>
+	<color name="component_button_top">#fff</color>
+	<color name="component_button_bottom">@color/color6</color>
+	
+<!--	<color name="tint_color1">@color/color1</color>-->
+<!--	<color name="tint_color2">@color/color2</color>-->
+<!--	<color name="tint_color3">@color/color3</color>-->
+<!--	<color name="tint_color4">@color/color4</color>-->
+<!--	<color name="tint_color5">@color/color5</color>-->
+</resources>
